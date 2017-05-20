@@ -1,0 +1,11 @@
+[package]
+name = "librealsense"
+version = "0.1.0"
+authors = ["Benjamin Hinchley <benjaminhinchley@gmail.com>"]
+description = "safe wrapper to librealsense"
+repository = "https://github.com/benhinchley/rust-librealsense"
+readme = "README.md"
+license = "Apache-2.0"
+
+[dependencies]
+librealsense-sys = { git = "https://github.com/benhinchley/librealsense-sys.git" }
